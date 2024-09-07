@@ -16,7 +16,7 @@
 ---
 
 
- <p align="center"><img src="https://profile-counter.glitch.me/{suhail-whatsapp-bot}/count.svg" alt="SuhailTechInfo :: Visitor's Count" old_src="https://profile-counter.glitch.me/{SuhailTechInfo}/count.svg" /></p>
+ <p align="center"><img src="https://profile-counter.glitch.me/{SUHAIL-XMD}/count.svg" alt="GlobalTechInfo :: Visitor's Count" old_src="https://profile-counter.glitch.me/{GlobalTechInfo}/count.svg" /></p>
 
 
   <p align="center"> Meet Suhail-X, Your All-in-One WhatsApp Excitement Buddy! Enjoy a thrilling messaging experience like never before. Suhail_x whatsapp bot brings a world of excitement and joy to your chats. Express yourself with unique flair and add a touch of excitement to every conversation. ✨🤖 </p
