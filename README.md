@@ -24,9 +24,12 @@
  
 ## Deployment Methods
 ---
-1. ***Get [`SESSION ID`](https://suhail-md-vtsf.onrender.com/)  by scanning QR code. `Whatapp>Three dots>Linked Devices`***
-2.  ***Get a Mongodb uri from [`Mongodb`] | [`Tutorial`](https://youtu.be/4YEUtGlqkl4).***
-3.  ***`Star ⭐` repository & Click [`FORK`](https://github.com/SuhailTechInfo/suhail-whatsapp-bot/fork)***
+1. ***Get [`SESSION ID`]by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+a href='https://vtsf.onrender.com/' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/SESSION%20ID-green?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+
+2. 
+3.  ***Get a Mongodb uri from [`Mongodb`] | [`Tutorial`](https://youtu.be/4YEUtGlqkl4).***
+4.  ***`Star ⭐` repository & Click [`FORK`](https://github.com/SuhailTechInfo/suhail-whatsapp-bot/fork)***
    
 5.  ***Deploy on [`HEROKU`](https://suhail-web.vercel.app//deploy?platform=heroku)***
 6.  ***Deploy on [`Replit`](https://suhail-web.vercel.app/deploy?platform=replit)***  
