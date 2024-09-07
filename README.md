@@ -25,7 +25,7 @@
 ## Deployment Methods
 ---
 1. ***Get [`SESSION ID`]by scanning QR code. `Whatapp>Three dots>Linked Devices`***
-a href='https://vtsf.onrender.com/' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/SESSION%20ID-green?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+     <a href='https://vtsf.onrender.com/' target="_blank"><img alt='Fork repo'   src='https://img.shields.io/badge/SESSION%20ID-green?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
 2. 
 3.  ***Get a Mongodb uri from [`Mongodb`] | [`Tutorial`](https://youtu.be/4YEUtGlqkl4).***
