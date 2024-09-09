@@ -36,7 +36,7 @@
  
 ## Deployment Methods
 ---
-1. ***Get [`SESSION ID`](https://suhail-md-vtsf.onrender.com/)  by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+1. ***Get [`SESSION ID`](https://suhail-md-vtsf.onrender.com/)  by Pair Code Or scanning QR code. `Whatapp>Three dots>Linked Devices`***
 2. 
 3.  ***Get a Mongodb uri from [`Mongodb`] | [`Tutorial`](https://youtu.be/4YEUtGlqkl4).***
 4.  ***`Star ⭐` repository & Click [`FORK`](https://github.com/SuhailTechInfo/suhail-whatsapp-bot/fork)***
