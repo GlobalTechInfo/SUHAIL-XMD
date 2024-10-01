@@ -83,7 +83,7 @@
       ```
       git clone https://github.com/GlobalTechInfo/SUHAIL-XMD
       cd SUHAIL-XMD
-      yarn install --network-concurrency 1
+      npm install
       ```
 
    6. Create an env file for ENV. 
