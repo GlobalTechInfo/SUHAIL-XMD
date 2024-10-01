@@ -59,7 +59,7 @@
    1. Install git ffmpeg curl 
       ``` 
        sudo apt -y update &&  sudo apt -y upgrade 
-       sudo apt -y install git ffmpeg curl
+       sudo apt -y install git ffmpeg curl imagemagick
       ``` 
    2. Install nodejs  
       ```   
