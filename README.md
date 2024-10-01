@@ -132,6 +132,7 @@ yarn global add pm2
 git clone https://github.com/<your_username>/SUHAIL-XMD
 yarn install --network-concurrency 1 && npm install
 npm start
+```
   
  ---
  
