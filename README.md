@@ -124,9 +124,9 @@
   echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
   apt -y update && apt -y install yarn
   yarn global add pm2
-  yarn install --network-concurrency 1```
+  yarn install --network-concurrency 1
   
-
+ ---
  
 <h2 align="center">  NOTICE </h2>
 ---
