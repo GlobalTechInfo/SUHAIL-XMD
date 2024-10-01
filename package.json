@@ -64,8 +64,8 @@
              "youtubei.js": "9.4.0",
              "ytdl-secktor": "npm:@distube/ytdl-core",
              "link-preview-js": "^3.0.0",
-            "puppeteer": "latest"
-      "pino": "^7.0.5",
+            "puppeteer": "latest",
+      "pino": "^7.0.5"
    },
    "directories": {
       "lib": "lib",
