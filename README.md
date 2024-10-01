@@ -54,7 +54,7 @@
 
 ---
 
-## Deploy on VPS/PC or Termux/Ubuntu.
+## Deploy on VPS or PC
 - You need to Install git,ffmpeg,curl,nodejs,yarn with pm2 
    1. Install git ffmpeg curl 
       ``` 
@@ -112,6 +112,19 @@
  
       To start bot ``` npm start ```,
       To stop bot ``` npm stop ```
+
+   ## TERMUX/UBUNTU
+  
+  ```apt -y update &&  sudo apt -y upgrade
+  apt -y install git ffmpeg curl imagemagick
+  apt -y remove nodejs
+  curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nodejs
+  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - 
+  echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+  apt -y update && apt -y install yarn
+  yarn global add pm2
+  yarn install --network-concurrency 1```
+  
 
  
 <h2 align="center">  NOTICE </h2>
