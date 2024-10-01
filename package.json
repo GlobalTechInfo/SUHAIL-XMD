@@ -1,5 +1,5 @@
 {
-   "name": "suhail-md",
+   "name": "SUHAIL-XMD",
    "version": "1.0.1",
    "status" : "Under Developement!",
    "description": "Multi device whatsapp bot.",
@@ -54,6 +54,7 @@
              "pastebin-js": "latest",
              "path": "^0.12.7",
              "pg": "^8.11.3",
+             "pino": "^7.0.5",
              "pm2": "^5.2.0",
              "qrcode": "latest",
              "secktor-pack": "latest",
@@ -73,10 +74,4 @@
    "devDependencies": {
       "pino": "^7.0.5"
    },
-   "repository": {
-      "type": "git",
-      "url": "git+https://github.com/GlobalTechInfo/SUHAIL-XMD.git"
-   },
-   "bugs": { "url": "https://github.com/GlobalTechInfo/SUHAIL-XMD/issues" },
-   "homepage": "https://github.com/GlobalTechInfo/SUHAIL-XMD#readme"
 }
