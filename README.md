@@ -115,7 +115,8 @@
 
    ## TERMUX/UBUNTU
   
-  ```apt -y update &&  sudo apt -y upgrade
+  ```apt-get update && apt-get -y full-upgrade
+  apt -y update &&  sudo apt -y upgrade
   apt -y install git ffmpeg curl imagemagick
   apt -y remove nodejs
   curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nodejs
