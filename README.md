@@ -83,7 +83,7 @@
       ```
       git clone https://github.com/GlobalTechInfo/SUHAIL-XMD
       cd SUHAIL-XMD
-      npm install
+      npm install && npx puppeteer@latest install --y
       ```
 
    6. Create an env file for ENV. 
@@ -124,6 +124,7 @@
   echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
   apt -y update && apt -y install yarn
   yarn global add pm2
+  npx puppeteer@latest install --y
   yarn install --network-concurrency 1
   
  ---
