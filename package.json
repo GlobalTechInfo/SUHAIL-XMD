@@ -54,7 +54,6 @@
              "pastebin-js": "latest",
              "path": "^0.12.7",
              "pg": "^8.11.3",
-             "pino": "^7.0.5",
              "pm2": "^5.2.0",
              "qrcode": "latest",
              "secktor-pack": "latest",
@@ -74,4 +73,10 @@
    "devDependencies": {
       "pino": "^7.0.5"
    },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SuhailTechInfo/suhail-whatsapp-bot.git"
+   },
+   "bugs": { "url": "https://github.com/SuhailTechInfo/suhail-whatsapp-bot/issues" },
+   "homepage": "https://github.com/SuhailTechInfo/suhail-whatsapp-bot#readme"
 }
