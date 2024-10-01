@@ -124,8 +124,8 @@
   echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
   apt -y update && apt -y install yarn
   yarn global add pm2
-  npx puppeteer@latest install --y
-  yarn install --network-concurrency 1
+  yarn install --network-concurrency 1 && npm install
+  npm start
   
  ---
  
