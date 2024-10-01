@@ -83,7 +83,7 @@
       ```
       git clone https://github.com/GlobalTechInfo/SUHAIL-XMD
       cd SUHAIL-XMD
-      npm install && npx puppeteer@latest install --y
+      yarn install && npm install
       ```
 
    6. Create an env file for ENV. 
@@ -114,18 +114,24 @@
       To stop bot ``` npm stop ```
 
    ## TERMUX/UBUNTU
+_Add environment variables in config.env then run
+following commands_
   
-  ```apt-get update && apt-get -y full-upgrade
-  apt -y update &&  sudo apt -y upgrade
-  apt -y install git ffmpeg curl imagemagick
-  apt -y remove nodejs
-  curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nodejs
-  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - 
-  echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-  apt -y update && apt -y install yarn
-  yarn global add pm2
-  yarn install --network-concurrency 1 && npm install
-  npm start
+  ```apt update && apt -y upgrade
+apt install proot-distro
+proot-distro install Ubuntu
+proot-distro login ubuntu
+apt-get update && apt-get -y full-upgrade
+apt -y install git ffmpeg curl imagemagick
+apt -y remove nodejs
+curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nodejs
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - 
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+apt -y update && apt -y install yarn
+yarn global add pm2
+git clone https://github.com/<your_username>/SUHAIL-XMD
+yarn install --network-concurrency 1 && npm install
+npm start
   
  ---
  
