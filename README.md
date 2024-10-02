@@ -114,7 +114,7 @@
       To stop bot ``` npm stop ```
 
    ## TERMUX/UBUNTU
-_Add environment variables in config.env then run
+_First Of All Fork The Repo Then You'll Be Able To Do All The Remaining Steps.Add environment variables in config.env and config.js then run
 following commands_
 ```
 apt update && apt -y upgrade
@@ -123,7 +123,7 @@ apt update && apt -y upgrade
 apt install proot-distro
 ```
 ```
-proot-distro install Ubuntu
+proot-distro install ubuntu
 ```
 ```
 proot-distro login ubuntu
@@ -146,8 +146,13 @@ apt -y update && apt -y install yarn
 ```
 yarn global add pm2
 ```
+_Before Cloning It,Make Sure Get Session ID Via Pairing Or Scanning.Add Session ID And Owner Number In config.env And config.js.This Process Can Be Done In Fork Only.After That Clone The Fork And Execute Remaining Commands._
+
 ```
 git clone https://github.com/<your_username>/SUHAIL-XMD
+```
+```
+cd SUHAIL-XMD
 ```
 ```
 yarn install --network-concurrency 1 && npm install
