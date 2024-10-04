@@ -1,20 +1,7 @@
-
-FROM node:lts-buster
-
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
-
-COPY package.json .
-
-RUN npm install
-
-COPY . .
-
+FROM quay.io/suhailtechinfo/suhail-v2
+RUN git clone https://github.com/SuhailTechInfo/suhail-whatsapp-bot /root/luv
+# RUN rm -rf /root/luv/.git
+WORKDIR /root/luv
+RUN npm install || yarn install
 EXPOSE 8000
-
-CMD ["node", "index.js", "--server"]
+CMD ["npm","start" ]
