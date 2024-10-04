@@ -1,4 +1,4 @@
-web: npm start || yarn start
+web: npm start
 
 
 
