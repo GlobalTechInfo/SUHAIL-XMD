@@ -166,19 +166,22 @@ proot-distro login ubuntu
 apt-get update && apt-get -y full-upgrade
 ```
 ```
-apt -y install git ffmpeg curl imagemagick webp
+apt install -y sudo
 ```
 ```
-apt -y remove nodejs
-curl -fsSl https://deb.nodesource.com/setup_lts.x | bash - && apt -y install nodejs
+sudo apt -y install git ffmpeg curl imagemagick webp
 ```
 ```
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - 
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-apt -y update && apt -y install yarn
+sudo apt -y remove nodejs
+curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y install nodejs
 ```
 ```
-yarn global add pm2
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - 
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+sudo apt -y update && sudo apt -y install yarn
+```
+```
+sudo yarn global add pm2
 ```
 _Before Cloning It,Make Sure Get Session ID Via Pairing Or Scanning.Add Session ID And Owner Number In config.env And config.js.This Process Can Be Done In Fork Only.After That Clone The Fork And Execute Remaining Commands._
 
