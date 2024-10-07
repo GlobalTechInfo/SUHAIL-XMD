@@ -1,10 +1,13 @@
 {
-   "name": "SUHAIL-XMD",
+   "name": "suhail",
    "version": "1.0.1",
    "status" : "Under Developement!",
    "description": "Multi device whatsapp bot.",
    "main": "index.js",
-   "type": "commonjs",  
+   "type": "commonjs",
+   "engines": {
+        "node": ">=20.0.0"
+   },
    "scripts": {
             "run": "pm2 start . --deep-monitoring --attach --name Suhail",
             "suhail": "pm2 start . --deep-monitoring --attach --name Suhail",
@@ -12,7 +15,7 @@
             "stop": "pm2 stop Suhail",
             "dbs--postinstall": "npx puppeteer@latest install --y"
    },
-   "author": "GlobalTechInfo",
+   "author": "SuhailTechInfo",
    "license" :"Apache-2.0",
    "dependencies": {
              "@adiwajshing/keyed-db": "^0.2.4",
