@@ -41,12 +41,9 @@
 
 2.  ***Get a Mongodb uri from [`Mongodb`] | [`Tutorial`](https://youtu.be/4YEUtGlqkl4).***
 3.  ***`Star ⭐` repository & Click [`FORK`](https://github.com/GlobalTechInfo/SUHAIL-XMD/fork)***
-   
-4.  #### DEPLOY IN HEROKU 
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=new)
 
 --------
+
 5.  #### DEPLOY IN REPLIT
 
    <a href='https://repl.it/github/GlobalTechInfo/SUHAIL-XMD' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-REPLIT-orange?style=for-the-badge&logo=replit&logoColor=white'/></a>
@@ -174,6 +171,9 @@ sudo apt -y install git ffmpeg curl imagemagick webp
 ```
 sudo apt -y remove nodejs
 curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y install nodejs
+```
+```
+apt-get install build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
 ```
 ```
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - 
