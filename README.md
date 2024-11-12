@@ -192,10 +192,10 @@ git clone https://github.com/<your_username>/SUHAIL-XMD
 cd SUHAIL-XMD
 ```
 ```
-yarn install --network-concurrency 1 && npm install
+npm install
 ```
 ```
-npm install && npm start
+npm start
 ```
   
  ---
