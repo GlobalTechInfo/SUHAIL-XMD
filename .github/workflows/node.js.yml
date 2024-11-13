@@ -1,4 +1,4 @@
-name: Node.js CI
+kiname: Node.js CI
 
 on:
   push:
@@ -31,4 +31,13 @@ jobs:
 
     - name: Start application
       run: npm start
+  name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
   
