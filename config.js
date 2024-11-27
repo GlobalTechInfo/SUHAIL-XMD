@@ -6,7 +6,7 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 global.audio= "true" ;  
 global.video= "true" ;
 global.port =process.env.PORT 
-global.appUrl=process.env.APP_URL || "python"     // put your deploy app/bot url here, for 24/7 for (render , koyeb, glitch)
+global.appUrl=process.env.APP_URL || ""     // put your deploy app/bot url here, for 24/7 for (render , koyeb, glitch)
 global.email ="saimsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
@@ -74,8 +74,8 @@ module.exports = {
   VERSION : process.env.VERSION || "1.0.1-developement-x",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
  
-  author : process.env.PACK_AUTHER|| "Shawn",
-  packname: process.env.PACK_NAME || "Shawn",
+  author : process.env.PACK_AUTHER|| "",
+  packname: process.env.PACK_NAME || "",
   botname : process.env.BOT_NAME  || "Shawnty23 MD",
   ownername:process.env.OWNER_NAME|| "Shawn.A.",
 
