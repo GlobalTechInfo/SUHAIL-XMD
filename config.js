@@ -3,10 +3,10 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 
 
 //═══════[Required Variables]════════\\
-global.audio= "" ;  
-global.video= "" ;
+global.audio= "true" ;  
+global.video= "true" ;
 global.port =process.env.PORT 
-global.appUrl=process.env.APP_URL || ""     // put your deploy app/bot url here, for 24/7 for (render , koyeb, glitch)
+global.appUrl=process.env.APP_URL || "python"     // put your deploy app/bot url here, for 24/7 for (render , koyeb, glitch)
 global.email ="saimsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
@@ -16,7 +16,7 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority"
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Kenya/Nairobi";
 global.github=process.env.GITHUB|| "https://github.com/GlobalTechInfo/SUHAIL-XMD";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
@@ -34,7 +34,7 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 //========================= [ BOT SETTINGS ] ======8===================\\
 global.style = process.env.STYLE   || Math.floor(Math.random()*6) || '0'  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
-global.gdbye = process.env.GOODBYE || process.env.CAN_GOODBYE || "false"; 
+global.gdbye = process.env.GOODBYE || process.env.CAN_GOODBYE || "true"; 
 global.wlcm  = process.env.WELCOME || process.env.CAN_WELCOME || Math.floor(Math.random()*3)  === 1 ?  "true" : "false" ;  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 3
@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.0.1-developement-x",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ GlobalTechInfo ® 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@GlobalTechInfo"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-XMD",
-  ownername:process.env.OWNER_NAME|| "Suhail-X",
+  author : process.env.PACK_AUTHER|| "Shawn",
+  packname: process.env.PACK_NAME || "Shawn",
+  botname : process.env.BOT_NAME  || "Shawnty23 MD",
+  ownername:process.env.OWNER_NAME|| "Shawn.A.",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -91,8 +91,8 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
+  LANG: ( process.env.THEME ||  "SHAWN"  ).toUpperCase(),
 
 
 
