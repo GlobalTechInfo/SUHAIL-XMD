@@ -8,7 +8,7 @@ global.video= "" ;
 global.port =process.env.PORT 
 global.appUrl=process.env.APP_URL || ""     // put your deploy app/bot url here, for 24/7 for (render , koyeb, glitch)
 global.email ="saimsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.location="siliguri,india."
 
 
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority"
@@ -16,7 +16,7 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority"
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "siliguri/india";
 global.github=process.env.GITHUB|| "https://github.com/GlobalTechInfo/SUHAIL-XMD";
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
@@ -24,9 +24,9 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.
 global.caption = process.env.CAPTION || global.caption || "© GlobalTechInfo" 
 
 
-global.devs = "" // Developer Contact
+global.devs = "919474878724" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "919474878724";
 
 
 
@@ -53,8 +53,8 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "false"
-global.save_status = process.env.AUTO_SAVE_STATUS || "false"
+global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.save_status = process.env.AUTO_SAVE_STATUS || "true"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923444844060,923xxxxxxxx";
 
@@ -76,23 +76,23 @@ module.exports = {
  
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "",
-  botname : process.env.BOT_NAME  || "Suhail-XMD",
-  ownername:process.env.OWNER_NAME|| "Suhail-X",
+  botname : process.env.BOT_NAME  || "Ramjeet-XMD",
+  ownername:process.env.OWNER_NAME|| "Ramjeet-X",
 
 
   errorChat : process.env.ERROR_CHAT || "",
   KOYEB_API : process.env.KOYEB_API  || "false",
 
   REMOVE_BG_KEY : process.env.REMOVE_BG_KEY  || "yepeTQaFk7r9ymusihgXYvdN",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "0cdb1aed858329b9793413672094ce0d",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME:process.env.HEROKU_APP_NAME|| "",
   antilink_values:process.env.ANTILINK_VALUES|| "all",
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
 
 
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "SUHAIL"  ).toUpperCase(),
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "public",
+  LANG: ( process.env.THEME ||  "RAMJEET"  ).toUpperCase(),
 
 
 
