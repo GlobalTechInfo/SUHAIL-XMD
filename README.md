@@ -93,7 +93,7 @@
    2. Install nodejs  
       ```   
       sudo apt -y remove nodejs
-      curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y install nodejs
+      curl -fsSl https://deb.nodesource.com/setup_20.x | sudo bash - && sudo apt -y install nodejs
       ```
   
    3. Install yarn
@@ -173,7 +173,7 @@ sudo apt -y install git ffmpeg curl imagemagick webp
 ```
 ```
 sudo apt -y remove nodejs
-curl -fsSl https://deb.nodesource.com/setup_lts.x | sudo bash - && sudo apt -y install nodejs
+curl -fsSl https://deb.nodesource.com/setup_20.x | sudo bash - && sudo apt -y install nodejs
 ```
 ```
 curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add - 
@@ -183,7 +183,7 @@ sudo apt -y update && sudo apt -y install yarn
 ```
 sudo yarn global add pm2
 ```
-_Before Cloning It,Make Sure Get Session ID Via Pairing Or Scanning.Add Session ID And Owner Number In config.env And config.js.This Process Can Be Done In Fork Only.After That Clone The Fork And Execute Remaining Commands._
+_Before Cloning It,Make Sure Get Session ID Via Pairing Or Scanning.Add Session ID And Owner Number In .env And config.js.This Process Can Be Done In Fork Only.After That Clone The Fork And Execute Remaining Commands._
 
 ```
 git clone https://github.com/<your_username>/SUHAIL-XMD
