@@ -4,4 +4,4 @@ RUN git clone https://github.com/GlobalTechInfo/SUHAIL-XMD /root/SUHAIL-XMD
 WORKDIR /root/SUHAIL-XMD
 RUN npm install || yarn install
 EXPOSE 8000
-CMD ["npm","start" ]
+CMD ["npm", "start"]
